@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+}
+
+.fonts-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header {
+  /* #fff8f3; */
+  background-color: #fff8f3;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding-top: 51px;
+  align-items: center;
+}
+nav .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 51px;
+  align-items: center;
+}
+
+nav .menu a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logo h2 {
+  font-size: 45px;
+}
+.logo-r {
+  color: #fd6e0a;
+}
+
+.hire-me-button {
+  font-size: 20px;
+  padding: 18px 35px;
+  background-color: #fd6e0a;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
