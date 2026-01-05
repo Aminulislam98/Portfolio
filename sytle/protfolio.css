@@ -6,9 +6,15 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+/* This is head section */
 header {
   /* #fff8f3; */
   background-color: #fff8f3;
+  background: url("../images/developer.png"), url("../images/header_bg.png"),
+    #fff8f3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
 }
 nav {
   width: 71%;
@@ -29,6 +35,7 @@ nav .menu {
 nav .menu a {
   text-decoration: none;
   font-size: 20px;
+  color: #474747;
 }
 
 .logo h2 {
@@ -46,4 +53,67 @@ nav .menu a {
   font-weight: bold;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+/* This is banar section */
+#banar {
+  margin: 47px 36px 0 207px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banar-content {
+  width: 585px;
+}
+#banar-content h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+#banar-content h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#banar-content p {
+  font-size: 18px;
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.download-button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 19px 17px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.contact-button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 19px 23px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #fd6e0a;
+  background-color: white;
+  color: #fd6e0a;
+}
+#banar-image-container {
+  width: 584px;
+}
+#banar-image-container img {
+  width: 100%;
+  vertical-align: middle;
 }
