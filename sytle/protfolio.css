@@ -120,8 +120,10 @@ nav .menu a {
 }
 
 /* This section is for main section */
+hr {
+  color: #e4e4e4;
+}
 .about-me-section {
-  border: 1px solid rgba(255, 0, 0, 0.564);
   padding: 130px 230px;
 }
 .about-me-container {
@@ -132,6 +134,7 @@ nav .menu a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 .about-me-header-description {
   text-align: center;
@@ -147,28 +150,33 @@ nav .menu a {
 }
 .about-me-contact-details {
   max-width: 782px;
+
   margin-top: 30px;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
   text-align: center;
 }
 .about-me-contact-details p {
-  font-size: 16px;
+  font-size: 18px;
   color: #757575;
   padding-bottom: 4px;
   max-width: 780px;
+  font-weight: 400;
 }
 .about-me-contact-details h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #474747;
+  flex-wrap: wrap;
 }
 .about-me-email a {
   color: #474747;
 }
 
 .what-i-do-section {
-  padding: 130px 230px;
+  padding: 0px 230px;
 }
 .what-i-do-container {
   display: flex;
@@ -194,6 +202,7 @@ nav .menu a {
 .what-i-do-experience {
   margin-top: 55px;
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 .what-i-do-card {
@@ -218,4 +227,70 @@ nav .menu a {
   font-size: 16px;
   color: #757575;
   margin-top: 20px;
+}
+
+.summary-of-my-resume-container {
+  padding: 130px 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.summary-of-my-resume-header {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.summary-of-my-resume {
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+}
+.my-education,
+.my-experience {
+  max-width: 511px;
+  color: #474747;
+  font-size: 20px;
+  font-weight: bold;
+}
+.education-card {
+}
+.my-education h3,
+.my-experience h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+.education-card h3,
+.Experience-card h3 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.my-education-uni-name,
+.my-experience-workplace-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.my-education-description-skills,
+.my-experience-description-skills {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.resume-download-CV {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 27px;
+  padding: 19px 17px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
 }
