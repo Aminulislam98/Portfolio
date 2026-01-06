@@ -128,8 +128,6 @@ nav .menu a {
   padding: 130px 150px;
   background-color: #fff8f3;
   max-width: 1140px;
-  width: 100%;
-  height: 550px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -148,17 +146,17 @@ nav .menu a {
   color: #757575;
 }
 .about-me-contact-details {
-  width: 782px;
-  height: 60px;
+  max-width: 782px;
   margin-top: 30px;
   display: flex;
-  gap: 50px;
+  justify-content: space-around;
   text-align: center;
 }
 .about-me-contact-details p {
   font-size: 16px;
   color: #757575;
   padding-bottom: 4px;
+  max-width: 780px;
 }
 .about-me-contact-details h2 {
   font-size: 16px;
@@ -167,4 +165,57 @@ nav .menu a {
 }
 .about-me-email a {
   color: #474747;
+}
+
+.what-i-do-section {
+  padding: 130px 230px;
+}
+.what-i-do-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/* .what-i-do-description {
+
+} */
+.what-i-do-description h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.what-i-do-description p {
+  max-width: 827px;
+  margin: 0px auto;
+  color: #757575;
+  font-size: 18px;
+  text-align: center;
+}
+.what-i-do-experience {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+.what-i-do-card {
+  max-width: 267px;
+  padding: 20px;
+  text-align: start;
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+.image-container {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.what-i-do-experience-description {
+}
+.what-i-do-experience-description h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.what-i-do-experience-description p {
+  font-size: 16px;
+  color: #757575;
+  margin-top: 20px;
 }
